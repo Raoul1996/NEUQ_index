@@ -16,9 +16,12 @@ a{text-decoration:none;}
 /*.dis{display:block;}*/
 /*from neuq.edu.cn*/
 /*some tips what I want to use*/
+a{
+    color: #ffffff;}
 .fl{float:left;}
 .rl{float:right;}
 .block{display:block;}
 .line{height: 0;width: 100%; border: 1px solid #666666;}
-.comwidth{ width: 1200px;}
+.comwidth{ width: 1200px; margin: 0 auto;}
+.maxwidth{    width: 100%;min-width: 1340px;}
 /*end*/

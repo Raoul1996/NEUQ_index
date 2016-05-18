@@ -403,7 +403,7 @@
 					var preview = $('<div id="preview_slide"><ul></ul></div>');
 					
 					for (var i = 0; i < this.settings.images_links.length; i++) {
-						var li = $('<li></li>');
+						var li = $('<li><a href="#"></li>');
 						var img = $('<img />');
 						img.attr('src', this.settings.images_links[i][0]);
 						li.append(img);
