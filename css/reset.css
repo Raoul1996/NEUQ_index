@@ -3,7 +3,7 @@
 /*reset all*/
 div,form,img,ul,ol,li,dl,dt,dd,p,tr,td,body,strong,span,pre{margin:0; padding:0; border:0; background-repeat:no-repeat;}
 h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0; font-weight:normal;}
-body{ font-family: "微软雅黑"; font-size: 13px; margin: 0px; padding: 0px; line-height: 22px; color: #666; height: auto; clear: both; }
+body{ font-family: "微软雅黑"; font-size: 13px; margin: 0; padding: 0; line-height: 22px; color: #666; height: auto; clear: both; }
 /* background:#ebebeb;*/
 .wrap{ width: 1200px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
 img{border:none;display:block;}
@@ -18,10 +18,7 @@ a{text-decoration:none;}
 /*some tips what I want to use*/
 .fl{float:left;}
 .rl{float:right;}
-.block{
-    display=block;
-}
-
-
-
+.block{display:block;}
+.line{height: 0;width: 100%; border: 1px solid #666666;}
+.comwidth{ width: 1200px;}
 /*end*/
