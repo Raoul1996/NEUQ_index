@@ -72,15 +72,18 @@
     font-size: 16px;
 }
 .nav > ul > li{
-    width: 180px;
+    width: 150px;
     color: #ffffff;
     line-height:46px;
     float: left;
     position: relative;
 }
+.nav > ul > li:hover{
+    background: #073f7b;
+}
 .navs{
     display: none;
-    width: 200px;
+    width: 160px;
     line-height: 38px;
     font-size: 14px;
     background: #073f7b;
