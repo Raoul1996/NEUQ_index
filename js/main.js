@@ -16,3 +16,11 @@ $(document).ready(function(){
         });
     });
 });
+function showsub(li) {
+    var submenu=li.getElementsByTagName("div")[0];
+    submenu.style.display="block";
+}
+function hidesub(li) {
+    var submenu=li.getElementsByTagName("div")[0];
+    submenu.style.display="none";
+}

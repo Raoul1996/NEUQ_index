@@ -63,25 +63,25 @@
     cursor: pointer;
 }
 /*nav*/
-/*.nav{*/
-    /*height: 60px;*/
-    /*border-top: 1px #1D7AD9 solid;*/
-    /*cursor: pointer;*/
-/*}*/
-/*.nav>ul{  }*/
-/*.nav>ul>li{*/
-    /*float: left;*/
-    /*width: 140px;*/
-    /*height: 60px;*/
-    /*font-size: 18px;*/
-    /*line-height: 60px;*/
-    /*color: #ffffff;*/
-    /*text-align: center;*/
-/*}*/
-/*.lists{*/
-    /*position: relative;*/
-    /*display: none;*/
-/*}*/
+.nav{
+    height: 60px;
+    border-top: 1px #1D7AD9 solid;
+    cursor: pointer;
+}
+.nav>ul{  }
+.nav>ul>li{
+    float: left;
+    width: 140px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.lists{
+    position: relative;
+    display: none;
+}
 /*nav end*/
 
 
