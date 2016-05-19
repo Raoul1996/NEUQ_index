@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a4a26f9-8a5a-4e47-b4bd-03c337fcb22a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="neuqer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,7 +238,7 @@
       <workItem from="1463542136936" duration="3160000" />
       <workItem from="1463551212575" duration="9775000" />
       <workItem from="1463580960625" duration="13334000" />
-      <workItem from="1463633262372" duration="9350000" />
+      <workItem from="1463633262372" duration="9357000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1463542199017</created>
@@ -325,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463670764412</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="start">
+      <created>1463671230708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1463671230708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35619000" />
+    <option name="totallyTimeSpent" value="35626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="533" y="115" width="1493" height="1036" extended-state="0" />
