@@ -67,7 +67,7 @@
     height: 46px;
     border-top: 1px #1D7AD9 solid;
     cursor: pointer;
-    background:#004ea1 ;
+    background:#004ea1;
     text-align: center;
     font-size: 16px;
 }
@@ -81,6 +81,8 @@
 .navs{
     display: none;
     width: 200px;
+    line-height: 38px;
+    font-size: 14px;
     background: #073f7b;
     text-align: left;
     padding-left: 30px;
