@@ -1,6 +1,5 @@
 @charset "utf-8";
 /*css*/
-
 /*header*/
 #header{
     background: #004ea1;
@@ -103,16 +102,22 @@
 #main{
 }
 .bar{
+    padding-top: 10px;
     height: 66px;
 }
 .bar h1{
+    display: inline-block;
     line-height: 66px;
-    font-size: 22px;
+    font-size: 26px;
+    width: 30%;
+    color: #111;
+}
+.bar >li{
+    padding-top:30px;
+    list-style-type: none;
+    font-size: 15px;
 }
 .newsbars{
-    position: relative;
-    top:-66px;
-    right: 0;
     margin-top: 22px;
     width: 110px;
     height: 30px;
@@ -126,13 +131,103 @@
     line-height: 30px;
     color: #ffffff;
 }
+/*notice 图片滑块，不要急*/
+.slide{
+    height: 300px;
+    background: #eeeeee;
+}
+/*end*/
+/*news */
+.news{
+    height: 500px;
+}
+.news a{
+    padding-left: 20px;
+    color: #666;
+    text-decoration: none;
+}
+.news a:hover{
+    color: #073f7b;
+    text-decoration: none;
+}
+.newsl{
+    width: 790px;
+}
+.newsr{
+    width: 390px;
+    height: 500px;
+    background: #eeeeee;
+}
+.newsn{
 
-
-
-
+}
+.newsn li{
+    font-size: 15px;
+    height: 15px;
+    line-height: 15px;
+    padding-top: 20px;
+}
+.newsn li span{
+    color: #aaaaaa;
+    padding-right: 20px;
+    border-right: 1px solid #dddddd;
+}
+.lineblue{
+    height: 0;
+    width: 100%;
+    border-bottom: 2px solid #073f7b;
+    overflow: hidden;
+}
+.imgs img{
+    width: 268px;
+    height: 69px;
+}
+.imgs{
+    width: 25%;
+    text-align: center;
+}
 /*main end*/
 /*footer*/
-
+#footer{
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 20px 0;
+    background: #004ea1;
+}
+.footer >div{
+    border-right: 1px solid #dddddd;
+}
+.footerl{
+    width: 400px;
+}
+.footerl h3{
+    display:inline-block;
+    font-size: 18px;
+}
+.footerl li{
+    min-width: 25%;
+    width: 30px;
+    line-height: 30px;
+}
+.footerl li a{
+    color: #ffffff;
+}
+.footerl .sp{
+    min-width: 33%;
+}
+.footerc{
+    width: 500px;
+    height: 114px;
+}
+.footerr{
+    border: 0!important;
+}
+.footerr img{
+    display:block;
+    padding-left: 80px;
+    padding-top:8px;
+    margin: 0 auto;
+}
 
 
 
