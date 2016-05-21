@@ -151,10 +151,11 @@
     text-decoration: none;
 }
 .newsl{
-    width: 790px;
+    width: 760px;
+    padding-right: 20px;
 }
 .newsr{
-    width: 390px;
+    width: 420px;
     height: 500px;
     background: #eeeeee;
 }
@@ -186,6 +187,29 @@
     width: 25%;
     text-align: center;
 }
+.nright{
+    padding: 20px;
+}
+.nright>img{
+    display:inline-block;
+}
+.nright ul{
+    width: 225px;
+    padding: 0 !important;
+    font-size: 14px;
+}
+.nright li{
+    /*padding-left: 10px;*/
+}
+.nright li a{
+
+    padding-left: 0;
+}
+
+
+
+
+
 /*main end*/
 /*footer*/
 #footer{
