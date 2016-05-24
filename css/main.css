@@ -133,14 +133,12 @@
 }
 /*notice 图片滑块，不要急*/
 .slide{
-    height: 500px;
+    height: 450px;
 
 }
 /*end*/
 /*news */
-.news{
-    height: 500px;
-}
+
 .news a{
 
     color: #666;
@@ -161,9 +159,6 @@
     width: 420px;
     background: #eeeeee;
     margin-bottom: 20px;
-}
-.newsn{
-
 }
 .newsn li{
     font-size: 15px;
