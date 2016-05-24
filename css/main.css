@@ -133,8 +133,8 @@
 }
 /*notice 图片滑块，不要急*/
 .slide{
-    height: 300px;
-    background: #eeeeee;
+    height: 500px;
+
 }
 /*end*/
 /*news */
@@ -213,7 +213,9 @@
 .newsr li{
     padding-bottom:5px;
 }
-
+.picscroll{
+    display:block;
+}
 
 
 
