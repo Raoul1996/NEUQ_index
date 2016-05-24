@@ -176,6 +176,7 @@
     width: 100%;
     border-bottom: 2px solid #073f7b;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .imgs img{
     width: 268px;
@@ -211,7 +212,9 @@
 .picscroll{
     display:block;
 }
-
+.more_a{
+    color: #666666;
+}
 
 
 
@@ -222,7 +225,7 @@
     color: #ffffff;
     margin-top: 30px;
     padding: 20px 0;
-    background: #004ea1;
+    background: #004ea1 url("../img/foot_bg_03.jpg") left bottom;
 }
 .footer >div{
     border-right: 1px solid #dddddd;
@@ -242,12 +245,20 @@
 .footerl li a{
     color: #ffffff;
 }
+.footerl li a:hover{
+     color: #1D7AD9;
+ }
 .footerl .sp{
     min-width: 33%;
 }
 .footerc{
     width: 500px;
     height: 114px;
+}
+.footerc img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 35px;
 }
 .footerr{
     border: 0!important;
