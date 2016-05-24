@@ -102,12 +102,11 @@
 #main{
 }
 .bar{
-    padding-top: 10px;
-    height: 66px;
+    height: 55px;
 }
 .bar h1{
     display: inline-block;
-    line-height: 66px;
+    line-height: 55px;
     font-size: 26px;
     width: 30%;
     color: #111;
@@ -187,7 +186,7 @@
     text-align: center;
 }
 .nright{
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 .nright>img{
     display:inline-block;
