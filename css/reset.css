@@ -22,7 +22,7 @@ a{
 .rl{float:right;}
 .block{display:block;}
 .lineso{height: 0;width: 100%; border-bottom: 1px solid #ddd;overflow: hidden;}
-.linedo{height: 0;width: 100%; border-bottom: 1px solid #ddd;overflow: hidden;}
+.linedo{height: 0;width: 100%; border-bottom: 1px dotted #666;overflow: hidden;}
 .comwidth{ width: 1200px; margin: 0 auto;}
 .maxwidth{    width: 100%;min-width: 1340px;}
 /*end*/

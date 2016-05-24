@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form study</title>
+</head>
+<body>
+<!--form表单中，name用于和服务器交互，id用于js和css -->
+<!--radio name相同就是一组-->
+<form action="http://www.baidu.com/s" method="get">
+    <p>username:<input type="text" name="wd"></p>
+    <p>password:<input type="password" name="password"></p>
+    <p>confirm:<input type="password" id="confirm"></p>
+    <p>sex:<input type="radio" name="sex" checked="checked" value="1">male<input type="radio" name="sex" value="0">fmale</p>
+    <p>e-mail<input type="text"></p>
+    <p>address:
+        <select name="city" id="">
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+            <option value="">dfgh</option>
+        </select>
+
+    </p>
+    <p><textarea name="" id="" cols="30" rows="10"></textarea></p>
+    <p><input type="file" name="file"></p>
+    <p><input type="reset">重置</p>
+</form>
+</body>
+</html>

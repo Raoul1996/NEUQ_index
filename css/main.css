@@ -142,7 +142,7 @@
     height: 500px;
 }
 .news a{
-    padding-left: 20px;
+
     color: #666;
     text-decoration: none;
 }
@@ -150,14 +150,17 @@
     color: #073f7b;
     text-decoration: none;
 }
+.newsn a{
+    padding-left: 20px;
+}
 .newsl{
     width: 760px;
     padding-right: 20px;
 }
 .newsr{
     width: 420px;
-    height: 500px;
     background: #eeeeee;
+    margin-bottom: 20px;
 }
 .newsn{
 
@@ -195,16 +198,22 @@
 }
 .nright ul{
     width: 225px;
-    padding: 0 !important;
+    padding-left: 20px !important;
     font-size: 14px;
+}
+.nright .focus{
+    width: 220px;
 }
 .nright li{
     /*padding-left: 10px;*/
 }
 .nright li a{
 
-    padding-left: 0;
 }
+.newsr li{
+    padding-bottom:5px;
+}
+
 
 
 
